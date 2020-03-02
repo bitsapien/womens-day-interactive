@@ -2,6 +2,7 @@ import React from "react";
 import safety from "./images/safety.png";
 import stereotype from "./images/stereotype.jpg";
 import girlEducation from "./images/girl-education.png";
+import { Link } from 'react-router-dom'
 
 function PledgePage({ match }) {
   const messages = {
