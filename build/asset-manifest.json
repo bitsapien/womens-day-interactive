@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css",
+    "main.js": "/womens-day-interactive/static/js/main.322e48c0.chunk.js",
+    "main.js.map": "/womens-day-interactive/static/js/main.322e48c0.chunk.js.map",
+    "runtime-main.js": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js",
+    "runtime-main.js.map": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js.map",
+    "static/js/2.4900196a.chunk.js": "/womens-day-interactive/static/js/2.4900196a.chunk.js",
+    "static/js/2.4900196a.chunk.js.map": "/womens-day-interactive/static/js/2.4900196a.chunk.js.map",
+    "index.html": "/womens-day-interactive/index.html",
+    "precache-manifest.192c3033ce3f1ec6291f2cbde51ebda2.js": "/womens-day-interactive/precache-manifest.192c3033ce3f1ec6291f2cbde51ebda2.js",
+    "service-worker.js": "/womens-day-interactive/service-worker.js",
+    "static/css/main.ed7a5e7e.chunk.css.map": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css.map",
+    "static/js/2.4900196a.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.4900196a.chunk.js.LICENSE.txt",
+    "static/media/cause.png": "/womens-day-interactive/static/media/cause.d71f7e3c.png",
+    "static/media/educationicon.png": "/womens-day-interactive/static/media/educationicon.ed5fa6f9.png",
+    "static/media/face.png": "/womens-day-interactive/static/media/face.3f697345.png",
+    "static/media/faceElated.png": "/womens-day-interactive/static/media/faceElated.338ab1f1.png",
+    "static/media/faceHappy.png": "/womens-day-interactive/static/media/faceHappy.01fe6743.png",
+    "static/media/faceSad.png": "/womens-day-interactive/static/media/faceSad.4c2b5b17.png",
+    "static/media/girl-education.png": "/womens-day-interactive/static/media/girl-education.166fe695.png",
+    "static/media/pops.jpg": "/womens-day-interactive/static/media/pops.c2b97363.jpg",
+    "static/media/safety.png": "/womens-day-interactive/static/media/safety.f2515e10.png",
+    "static/media/safetyicon.png": "/womens-day-interactive/static/media/safetyicon.b0db8d84.png",
+    "static/media/stereotype.jpg": "/womens-day-interactive/static/media/stereotype.48d846a2.jpg",
+    "static/media/stereotype.png": "/womens-day-interactive/static/media/stereotype.e98437eb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d961ec2f.js",
+    "static/js/2.4900196a.chunk.js",
+    "static/css/main.ed7a5e7e.chunk.css",
+    "static/js/main.322e48c0.chunk.js"
+  ]
+}

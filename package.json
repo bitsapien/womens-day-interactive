@@ -1,12 +1,13 @@
 {
   "name": "womens-day",
-  "homepage": "http://bitsapien.github.io/womens-day-interactive",
+  "homepage": "http://bitsapien.github.io/womens-day-interactive/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-beautiful-dnd": "^13.0.0",

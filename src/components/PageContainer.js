@@ -14,13 +14,13 @@ function PageContainer({ location }) {
     <section className="route-section">
       <Switch location={location}>
         <DndProvider backend={Backend}>
-          <Route exact path="/" component={PageShell(EmotionPage)} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={PageShell(EmotionPage)} />
           <Route
             exact
-            path="/what-do-you-want-to-do"
+      path={process.env.PUBLIC_URL + "/what-do-you-want-to-do"}
             component={PageShell(CausePage)}
           />
-          <Route exact path="/pledge/:value" component={PageShell(PledgePage)} />
+          <Route exact path={process.env.PUBLIC_URL + "/pledge/:value"} component={PageShell(PledgePage)} />
         </DndProvider>
       </Switch>
     </section>
