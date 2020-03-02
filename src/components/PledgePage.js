@@ -35,7 +35,7 @@ function PledgePage({ match }) {
         </div>
 
 <div style={{marginTop: '4em'}}>
-          <a style={{fontSize: "1.5em", marginTop: "3em", color: "blue", textDecoration: "none"}} href="/"> Done </a>
+          <Link style={{fontSize: "1.5em", marginTop: "3em", color: "blue", textDecoration: "none"}} to={process.env.PUBLIC_URL+"/"}> Done </a>
 </div>
       </section>
     </div>
