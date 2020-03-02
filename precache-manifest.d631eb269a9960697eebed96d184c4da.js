@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b63250e45cc414560c58a709ec811acb",
+    "revision": "8f277b2cdd87c8c96ca9488f31fd5013",
     "url": "/womens-day-interactive/index.html"
   },
   {
-    "revision": "64956c11bf0f753059c7",
+    "revision": "e1857fc9e496b517452e",
     "url": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64956c11bf0f753059c7",
-    "url": "/womens-day-interactive/static/js/main.79b6dc7b.chunk.js"
+    "revision": "e1857fc9e496b517452e",
+    "url": "/womens-day-interactive/static/js/main.c3f51798.chunk.js"
   },
   {
     "revision": "457f5024239819612a2f",

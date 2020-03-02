@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/womens-day-interactive/precache-manifest.e276b75f9b94b8abffd9aeadddc16e72.js"
+  "/womens-day-interactive/precache-manifest.d631eb269a9960697eebed96d184c4da.js"
 );
 
 self.addEventListener('message', (event) => {
