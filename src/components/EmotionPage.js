@@ -13,7 +13,7 @@ import { DragPreviewImage, DropTarget, DragSource } from "react-dnd";
 function EmotionPage() {
   const history = useHistory();
   function changePage() {
-    history.push("/what-do-you-want-to-do");
+    history.push(process.env.PUBLIC_URL+"/what-do-you-want-to-do");
   }
 
 

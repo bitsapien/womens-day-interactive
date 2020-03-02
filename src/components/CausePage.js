@@ -36,7 +36,7 @@ function CauseSelection() {
   const history = useHistory();
   function takePledge(event) {
     const pledge = event.target.value;
-    const timer = setTimeout(() => history.push("/pledge/"+ pledge), 1000);
+    const timer = setTimeout(() => history.push(process.env.PUBLIC_URL+"/pledge/"+ pledge), 1000);
   }
   return (
     <div>
