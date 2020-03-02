@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f277b2cdd87c8c96ca9488f31fd5013",
+    "revision": "be0392824cb95a247992411fc3ba8fc5",
     "url": "/womens-day-interactive/index.html"
   },
   {
-    "revision": "e1857fc9e496b517452e",
+    "revision": "450d5b34759d2cbd2234",
     "url": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css"
   },
   {
-    "revision": "3b3b0987565523d79cb9",
-    "url": "/womens-day-interactive/static/js/2.51a2833f.chunk.js"
+    "revision": "c95cc889f00cc9f29210",
+    "url": "/womens-day-interactive/static/js/2.9115b21b.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.LICENSE.txt"
+    "url": "/womens-day-interactive/static/js/2.9115b21b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1857fc9e496b517452e",
-    "url": "/womens-day-interactive/static/js/main.c3f51798.chunk.js"
+    "revision": "450d5b34759d2cbd2234",
+    "url": "/womens-day-interactive/static/js/main.9aaec86b.chunk.js"
   },
   {
     "revision": "457f5024239819612a2f",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d71f7e3cd4ac14e80ac74154d14edc81",
     "url": "/womens-day-interactive/static/media/cause.d71f7e3c.png"
-  },
-  {
-    "revision": "ed5fa6f96f8aa892fec5b346bcaf231c",
-    "url": "/womens-day-interactive/static/media/educationicon.ed5fa6f9.png"
   },
   {
     "revision": "3f6973450bff6f69912bdb910a4f3392",
@@ -60,15 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/womens-day-interactive/static/media/safety.f2515e10.png"
   },
   {
-    "revision": "b0db8d840351283c8fe4ebe0bd8d29a6",
-    "url": "/womens-day-interactive/static/media/safetyicon.b0db8d84.png"
-  },
-  {
     "revision": "48d846a25c544aa46ebabf62ff7f5a04",
     "url": "/womens-day-interactive/static/media/stereotype.48d846a2.jpg"
-  },
-  {
-    "revision": "e98437eb427c0008c539c3359715231f",
-    "url": "/womens-day-interactive/static/media/stereotype.e98437eb.png"
   }
 ]);

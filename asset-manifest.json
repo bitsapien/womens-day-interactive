@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css",
-    "main.js": "/womens-day-interactive/static/js/main.c3f51798.chunk.js",
-    "main.js.map": "/womens-day-interactive/static/js/main.c3f51798.chunk.js.map",
+    "main.js": "/womens-day-interactive/static/js/main.9aaec86b.chunk.js",
+    "main.js.map": "/womens-day-interactive/static/js/main.9aaec86b.chunk.js.map",
     "runtime-main.js": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js",
     "runtime-main.js.map": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js.map",
-    "static/js/2.51a2833f.chunk.js": "/womens-day-interactive/static/js/2.51a2833f.chunk.js",
-    "static/js/2.51a2833f.chunk.js.map": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.map",
+    "static/js/2.9115b21b.chunk.js": "/womens-day-interactive/static/js/2.9115b21b.chunk.js",
+    "static/js/2.9115b21b.chunk.js.map": "/womens-day-interactive/static/js/2.9115b21b.chunk.js.map",
     "index.html": "/womens-day-interactive/index.html",
-    "precache-manifest.d631eb269a9960697eebed96d184c4da.js": "/womens-day-interactive/precache-manifest.d631eb269a9960697eebed96d184c4da.js",
+    "precache-manifest.cf22e014ecf76058ee2196283de9639b.js": "/womens-day-interactive/precache-manifest.cf22e014ecf76058ee2196283de9639b.js",
     "service-worker.js": "/womens-day-interactive/service-worker.js",
     "static/css/main.ed7a5e7e.chunk.css.map": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css.map",
-    "static/js/2.51a2833f.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.LICENSE.txt",
+    "static/js/2.9115b21b.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.9115b21b.chunk.js.LICENSE.txt",
     "static/media/cause.png": "/womens-day-interactive/static/media/cause.d71f7e3c.png",
-    "static/media/educationicon.png": "/womens-day-interactive/static/media/educationicon.ed5fa6f9.png",
     "static/media/face.png": "/womens-day-interactive/static/media/face.3f697345.png",
     "static/media/faceElated.png": "/womens-day-interactive/static/media/faceElated.338ab1f1.png",
     "static/media/faceHappy.png": "/womens-day-interactive/static/media/faceHappy.01fe6743.png",
@@ -21,14 +20,12 @@
     "static/media/girl-education.png": "/womens-day-interactive/static/media/girl-education.166fe695.png",
     "static/media/pops.jpg": "/womens-day-interactive/static/media/pops.c2b97363.jpg",
     "static/media/safety.png": "/womens-day-interactive/static/media/safety.f2515e10.png",
-    "static/media/safetyicon.png": "/womens-day-interactive/static/media/safetyicon.b0db8d84.png",
-    "static/media/stereotype.jpg": "/womens-day-interactive/static/media/stereotype.48d846a2.jpg",
-    "static/media/stereotype.png": "/womens-day-interactive/static/media/stereotype.e98437eb.png"
+    "static/media/stereotype.jpg": "/womens-day-interactive/static/media/stereotype.48d846a2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d961ec2f.js",
-    "static/js/2.51a2833f.chunk.js",
+    "static/js/2.9115b21b.chunk.js",
     "static/css/main.ed7a5e7e.chunk.css",
-    "static/js/main.c3f51798.chunk.js"
+    "static/js/main.9aaec86b.chunk.js"
   ]
 }
