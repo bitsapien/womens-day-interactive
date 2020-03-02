@@ -17,7 +17,7 @@ function PageContainer({ location }) {
           <Route exact path={process.env.PUBLIC_URL + "/"} component={PageShell(EmotionPage)} />
           <Route
             exact
-      path={process.env.PUBLIC_URL + "/what-do-you-want-to-do"}
+      path={process.env.PUBLIC_URL + "/thanks/:emotion"}
             component={PageShell(CausePage)}
           />
           <Route exact path={process.env.PUBLIC_URL + "/pledge/:value"} component={PageShell(PledgePage)} />

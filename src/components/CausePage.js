@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import causeFace from './images/cause.png'
-import educationIcon from './images/icons/educationicon.png';
-import safetyIcon from './images/icons/safetyicon.png';
-import stereotypeIcon from './images/icons/stereotype.png';
 
-function CausePage() {
+function CausePage({ match }) {
+  const messageList = {
+    "happy": "Let the glow of smile become the light of laughter!",
+    "sad": "Sad Truth!",
+    "elated": "For making me smile"
+  }
+
   const [showCompleteCausePage, setShow] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => setShow(true), 2000);
@@ -21,6 +24,7 @@ function CausePage() {
       <section >
         <div className="center-animation" style={showCompleteCausePage ? {} : marginStyle}>
           <h1>Thank You!</h1>
+      <h1> {messageList[match.params.emotion]}</h1>
           <h5 className="header-body">
             <strong>"YOU"</strong> have the power to spread smiles to all the women
             out there. Below are a few challenges that are yet to be resolved.
@@ -36,7 +40,7 @@ function CauseSelection() {
   const history = useHistory();
   function takePledge(event) {
     const pledge = event.target.value;
-    const timer = setTimeout(() => history.push(process.env.PUBLIC_URL+"/pledge/"+ pledge), 1000);
+    setTimeout(() => history.push(process.env.PUBLIC_URL+"/pledge/"+ pledge), 1000);
   }
   return (
     <div>

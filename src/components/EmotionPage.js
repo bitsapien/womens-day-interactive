@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import face from "./images/emotions/face.png";
 import faceHappy from "./images/emotions/faceHappy.png";
@@ -8,19 +8,19 @@ import pops from "./images/emotions/pops.jpg";
 import smileHappy from "./images/emotions/smile-happy.png";
 import smileElated from "./images/emotions/smile-elated.png";
 import smileSad from "./images/emotions/smile-sad.png";
-import { DragPreviewImage, DropTarget, DragSource } from "react-dnd";
+import { DropTarget, DragSource } from "react-dnd";
 
 function EmotionPage() {
   const history = useHistory();
-  function changePage() {
-    history.push(process.env.PUBLIC_URL+"/what-do-you-want-to-do");
+  function changePage(emotion) {
+    history.push(process.env.PUBLIC_URL+"/thanks/"+emotion);
   }
 
 
   const [emotion, changeEmotion] = useState("none");
 
     if(emotion !== "none") {
-        const timer = setTimeout(() => changePage(), 2000);
+        setTimeout(() => changePage(emotion), 2000);
     }
   function changeFaceHandler(emotion) {
     changeEmotion(emotion);
@@ -39,7 +39,7 @@ function EmotionPage() {
           </h5>
         </div>
 
-        <TargetFace faceEmotion={emotion} history={history} />
+        <TargetFace faceEmotion={emotion} />
         <div>
           <h6>
             Please <strong>DRAG & DROP</strong> the below emotions onto her face
@@ -124,7 +124,7 @@ const SmileDrag = DragSource("emotion", smileSource, collect)(SmileDraggable);
 
 function WomenFace(props) {
   console.log(props);
-  const { connectDropTarget, faceEmotion, history } = props;
+    const { connectDropTarget, faceEmotion } = props;
   const faceList = {
     none: face,
     happy: faceHappy,
@@ -139,7 +139,7 @@ function WomenFace(props) {
   };
 
   const styling =
-    faceEmotion == "happy" || faceEmotion == "elated" ? backgroundPop : {};
+    faceEmotion === "happy" || faceEmotion === "elated" ? backgroundPop : {};
 
   return connectDropTarget(
     <div className="image-container" style={styling}>
