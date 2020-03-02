@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css",
-    "main.js": "/womens-day-interactive/static/js/main.3915f2cb.chunk.js",
-    "main.js.map": "/womens-day-interactive/static/js/main.3915f2cb.chunk.js.map",
+    "main.js": "/womens-day-interactive/static/js/main.79b6dc7b.chunk.js",
+    "main.js.map": "/womens-day-interactive/static/js/main.79b6dc7b.chunk.js.map",
     "runtime-main.js": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js",
     "runtime-main.js.map": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js.map",
-    "static/js/2.4900196a.chunk.js": "/womens-day-interactive/static/js/2.4900196a.chunk.js",
-    "static/js/2.4900196a.chunk.js.map": "/womens-day-interactive/static/js/2.4900196a.chunk.js.map",
+    "static/js/2.51a2833f.chunk.js": "/womens-day-interactive/static/js/2.51a2833f.chunk.js",
+    "static/js/2.51a2833f.chunk.js.map": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.map",
     "index.html": "/womens-day-interactive/index.html",
-    "precache-manifest.cd0259fffbf3ac14be1f8a7f22b5f365.js": "/womens-day-interactive/precache-manifest.cd0259fffbf3ac14be1f8a7f22b5f365.js",
+    "precache-manifest.e276b75f9b94b8abffd9aeadddc16e72.js": "/womens-day-interactive/precache-manifest.e276b75f9b94b8abffd9aeadddc16e72.js",
     "service-worker.js": "/womens-day-interactive/service-worker.js",
     "static/css/main.ed7a5e7e.chunk.css.map": "/womens-day-interactive/static/css/main.ed7a5e7e.chunk.css.map",
-    "static/js/2.4900196a.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.4900196a.chunk.js.LICENSE.txt",
+    "static/js/2.51a2833f.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.51a2833f.chunk.js.LICENSE.txt",
     "static/media/cause.png": "/womens-day-interactive/static/media/cause.d71f7e3c.png",
     "static/media/educationicon.png": "/womens-day-interactive/static/media/educationicon.ed5fa6f9.png",
     "static/media/face.png": "/womens-day-interactive/static/media/face.3f697345.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d961ec2f.js",
-    "static/js/2.4900196a.chunk.js",
+    "static/js/2.51a2833f.chunk.js",
     "static/css/main.ed7a5e7e.chunk.css",
-    "static/js/main.3915f2cb.chunk.js"
+    "static/js/main.79b6dc7b.chunk.js"
   ]
 }
