@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/womens-day-interactive/static/css/main.e964a2b1.chunk.css",
-    "main.js": "/womens-day-interactive/static/js/main.9721538a.chunk.js",
-    "main.js.map": "/womens-day-interactive/static/js/main.9721538a.chunk.js.map",
+    "main.js": "/womens-day-interactive/static/js/main.7c6c3b79.chunk.js",
+    "main.js.map": "/womens-day-interactive/static/js/main.7c6c3b79.chunk.js.map",
     "runtime-main.js": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js",
     "runtime-main.js.map": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js.map",
     "static/js/2.c9f348c5.chunk.js": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js",
     "static/js/2.c9f348c5.chunk.js.map": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js.map",
     "index.html": "/womens-day-interactive/index.html",
-    "precache-manifest.2254f3442a8221496c97fbf6a9674b06.js": "/womens-day-interactive/precache-manifest.2254f3442a8221496c97fbf6a9674b06.js",
+    "precache-manifest.c2bb98722b33dfb3c5d638faafd6e97f.js": "/womens-day-interactive/precache-manifest.c2bb98722b33dfb3c5d638faafd6e97f.js",
     "service-worker.js": "/womens-day-interactive/service-worker.js",
     "static/css/main.e964a2b1.chunk.css.map": "/womens-day-interactive/static/css/main.e964a2b1.chunk.css.map",
     "static/js/2.c9f348c5.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.d961ec2f.js",
     "static/js/2.c9f348c5.chunk.js",
     "static/css/main.e964a2b1.chunk.css",
-    "static/js/main.9721538a.chunk.js"
+    "static/js/main.7c6c3b79.chunk.js"
   ]
 }
