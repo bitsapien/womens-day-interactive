@@ -13,18 +13,18 @@ import { DropTarget, DragSource } from "react-dnd";
 function EmotionPage() {
   const history = useHistory();
   function changePage(emotion) {
-    history.push(process.env.PUBLIC_URL+"/thanks/"+emotion);
+    history.push(process.env.PUBLIC_URL + "/thanks/" + emotion);
   }
-
 
   const [emotion, changeEmotion] = useState("none");
 
-    if(emotion !== "none") {
-        setTimeout(() => changePage(emotion), 2000);
-    }
-  function changeFaceHandler(emotion) {
-    changeEmotion(emotion);
+  if (emotion !== "none") {
+    setTimeout(() => changePage(emotion), 2000);
   }
+
+  const changeFaceHandler = emotion => event => {
+    changeEmotion(emotion);
+  };
 
   return (
     <div className="App">
@@ -35,28 +35,29 @@ function EmotionPage() {
             What do you <strong>THINK!</strong>
           </h1>
           <h5 className="header-body" onClick={changePage}>
-            If you would chose an emotion for how women feel in the present times, what would it be?
+            If you would chose an emotion for how women feel in the present
+            times, what would it be?
           </h5>
         </div>
 
         <TargetFace faceEmotion={emotion} />
         <div>
           <h6>
-            Please <strong>DRAG & DROP</strong> the below emotions onto her face
-            and see what she says.
+            Please <strong>TAP</strong> on the below emotions and see what she
+            says.
           </h6>
           <div className="actions emotions-img">
-            <SmileDrag
-              emotion={"happy"}
-              handleDrop={id => changeFaceHandler(id)}
-            />
-            <SmileDrag
-              emotion={"elated"}
-              handleDrop={id => changeFaceHandler(id)}
-            />
-            <SmileDrag
+            <SmileDraggable
               emotion={"sad"}
-              handleDrop={id => changeFaceHandler(id)}
+              changeFaceHandler={changeFaceHandler}
+            />
+            <SmileDraggable
+              emotion={"happy"}
+              changeFaceHandler={changeFaceHandler}
+            />
+            <SmileDraggable
+              emotion={"elated"}
+              changeFaceHandler={changeFaceHandler}
             />
           </div>
         </div>
@@ -64,8 +65,8 @@ function EmotionPage() {
     </div>
   );
 }
-function capitalize(str){
-return str.charAt(0).toUpperCase() + str.slice(1);
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 function SmileDraggable(props) {
   const smileList = {
@@ -73,13 +74,9 @@ function SmileDraggable(props) {
     elated: smileElated,
     sad: smileSad
   };
-  console.log("emotion", props.emotion);
-  const { isDragging, connectDragSource, preview, emotion } = props;
-  const opacity = isDragging ? 0 : 1;
+  const { emotion, changeFaceHandler } = props;
 
-  console.log(preview());
   const styling = {
-    opacity: opacity,
     dispay: "inline-block",
     border: "1px solid #000",
     marginRight: "20px",
@@ -88,26 +85,25 @@ function SmileDraggable(props) {
 
     borderRadius: "50%"
   };
-  return connectDragSource(
-    <div style={styling}>
+  return (
+    <div style={styling} onClick={changeFaceHandler(emotion)}>
       <img alt={emotion} src={smileList[emotion]} />
-          {capitalize(emotion)}
+      {capitalize(emotion)}
     </div>
   );
 }
 
 const smileSource = {
   beginDrag(props) {
-    console.log("abc", props);
     return { emotion: props.emotion };
   },
   endDrag(props, monitor, component) {
     if (!monitor.didDrop) {
       return;
     }
-    console.log("did drop");
 
-    return props.handleDrop(props.emotion);
+    return;
+    // return props.handleDrop(props.emotion);
   }
 };
 
@@ -124,7 +120,7 @@ const SmileDrag = DragSource("emotion", smileSource, collect)(SmileDraggable);
 
 function WomenFace(props) {
   console.log(props);
-    const { connectDropTarget, faceEmotion } = props;
+  const { connectDropTarget, faceEmotion } = props;
   const faceList = {
     none: face,
     happy: faceHappy,
@@ -134,12 +130,18 @@ function WomenFace(props) {
 
   const backgroundPop = {
     backgroundImage: "url(" + pops + ")",
-    backgroundPosition: "center",
+    backgroundPosition: "center -20px",
     backgroundRepeat: "no-repeat"
   };
 
+  const styles = {
+    height: "40vh"
+  };
+
   const styling =
-    faceEmotion === "happy" || faceEmotion === "elated" ? backgroundPop : {};
+    faceEmotion === "happy" || faceEmotion === "elated"
+      ? { ...backgroundPop, ...styles }
+      : styles;
 
   return connectDropTarget(
     <div className="image-container" style={styling}>

@@ -9,7 +9,7 @@ import TouchBackend from 'react-dnd-touch-backend'
 function App() {
   return (
     <Router>
-      <DndProvider backend={Backend}>
+      <DndProvider backend={TouchBackend}>
       <PageContainer />
       </DndProvider>
     </Router>

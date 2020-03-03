@@ -2,7 +2,7 @@ import React from "react";
 import safety from "./images/safety.png";
 import stereotype from "./images/stereotype.jpg";
 import girlEducation from "./images/girl-education.png";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function PledgePage({ match }) {
   const messages = {
@@ -11,11 +11,11 @@ function PledgePage({ match }) {
       image: girlEducation
     },
     stereotyping: {
-      text: "I pledge to say \"NO to stereotyping\" ",
+      text: 'I pledge to say "NO to stereotyping" ',
       image: stereotype
     },
     safety: {
-      text: "I pledge to \"Make everyone feel Safe\"!",
+      text: 'I pledge to "Make everyone feel Safe"!',
       image: safety
     }
   };
@@ -28,16 +28,27 @@ function PledgePage({ match }) {
       <section style={marginTop}>
         <h1>On this "Women's Day"</h1>
         <h1>{messages[match.params.value]["text"]}</h1>
-        <div className="image-container">
+        <div className="image-container" sytle={{ height: "40vh" }}>
           <img
             alt={match.params.value}
             src={messages[match.params.value]["image"]}
           />
         </div>
 
-<div style={{marginTop: '4em'}}>
-          <Link style={{fontSize: "1.5em", marginTop: "3em", color: "blue", textDecoration: "none"}} to={process.env.PUBLIC_URL+"/"}> Done </Link>
-</div>
+        <div style={{ marginTop: "4em" }}>
+          <Link
+            style={{
+              fontSize: "1.5em",
+              marginTop: "3em",
+              color: "blue",
+              textDecoration: "none"
+            }}
+            to={process.env.PUBLIC_URL + "/"}
+          >
+            {" "}
+            Done{" "}
+          </Link>
+        </div>
       </section>
     </div>
   );
