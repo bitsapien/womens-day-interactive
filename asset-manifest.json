@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/womens-day-interactive/static/css/main.e964a2b1.chunk.css",
+    "main.css": "/womens-day-interactive/static/css/main.e938b60d.chunk.css",
     "main.js": "/womens-day-interactive/static/js/main.7c6c3b79.chunk.js",
     "main.js.map": "/womens-day-interactive/static/js/main.7c6c3b79.chunk.js.map",
     "runtime-main.js": "/womens-day-interactive/static/js/runtime-main.d961ec2f.js",
@@ -8,9 +8,9 @@
     "static/js/2.c9f348c5.chunk.js": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js",
     "static/js/2.c9f348c5.chunk.js.map": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js.map",
     "index.html": "/womens-day-interactive/index.html",
-    "precache-manifest.c2bb98722b33dfb3c5d638faafd6e97f.js": "/womens-day-interactive/precache-manifest.c2bb98722b33dfb3c5d638faafd6e97f.js",
+    "precache-manifest.50fa2b1d71ae2ba490f16416f2c631d6.js": "/womens-day-interactive/precache-manifest.50fa2b1d71ae2ba490f16416f2c631d6.js",
     "service-worker.js": "/womens-day-interactive/service-worker.js",
-    "static/css/main.e964a2b1.chunk.css.map": "/womens-day-interactive/static/css/main.e964a2b1.chunk.css.map",
+    "static/css/main.e938b60d.chunk.css.map": "/womens-day-interactive/static/css/main.e938b60d.chunk.css.map",
     "static/js/2.c9f348c5.chunk.js.LICENSE.txt": "/womens-day-interactive/static/js/2.c9f348c5.chunk.js.LICENSE.txt",
     "static/media/cause.png": "/womens-day-interactive/static/media/cause.d71f7e3c.png",
     "static/media/face.png": "/womens-day-interactive/static/media/face.3f697345.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.d961ec2f.js",
     "static/js/2.c9f348c5.chunk.js",
-    "static/css/main.e964a2b1.chunk.css",
+    "static/css/main.e938b60d.chunk.css",
     "static/js/main.7c6c3b79.chunk.js"
   ]
 }
